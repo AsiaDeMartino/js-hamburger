@@ -9,7 +9,11 @@ const hamburgerMenu = document.querySelector(".hamburger-menu");
 console.log(hamburgerMenu);
 
 //addEventListener
-    //click --> display block 
-    //click --> display none 
-   
-    
+menu.addEventListener("click", function() {
+    hamburgerMenu.style.display = "block";                   //click --> display block 
+})
+
+
+chiudi.addEventListener("click", function() {
+    hamburgerMenu.style.display = "none";                     //click --> display none 
+})
