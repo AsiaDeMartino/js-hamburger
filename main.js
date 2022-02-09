@@ -10,10 +10,10 @@ console.log(hamburgerMenu);
 
 //addEventListener
 menu.addEventListener("click", function() {
-    hamburgerMenu.style.display = "block";                   //click --> display block 
+    hamburgerMenu.classList.add("active")                        //click --> display block 
 })
 
 
 chiudi.addEventListener("click", function() {
-    hamburgerMenu.style.display = "none";                     //click --> display none 
+    hamburgerMenu.classList.remove("active")                     //click --> display none 
 })
